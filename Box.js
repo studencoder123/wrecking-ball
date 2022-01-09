@@ -18,7 +18,7 @@ class Box {
     translate(this.body.position.x, this.body.position.y);
     rotate(this.body.angle);
     rectMode(CENTER);
-    strokeWeight(10);
+    strokeWeight(4);
     stroke("blue");
     rect(0, 0, this.width, this.height);
     pop();
